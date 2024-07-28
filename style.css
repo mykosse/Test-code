@@ -1,0 +1,65 @@
+body {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin : 0;
+}
+
+.container {
+    border-radius: 15px;
+    border: 2px solid Black;
+    background-color: #f1f1f1;
+    width : 500px;
+    height : 350px;
+    margin : 5rem 0;
+}
+.inputs-div {
+    margin : 2rem 0;
+}
+
+.nameExpenseInput-div {
+    margin : 0.5rem 0;
+}
+
+.nameExpenseInput {
+    width : 200px;
+}
+
+.costExpenseInput {
+    width : 200px;
+}
+
+.Btn {
+    border-radius : 5px;
+    transition: all 0.3s ease;
+    height : 2rem;
+    width : 150px;
+}
+
+.Btn:hover {
+    background-color: blue;
+    color : white;
+    border: 1px solid Black;
+}
+
+.deleteBtn {
+    border-radius : 5px;
+    transition: all 0.3s ease;
+    height : 1.5rem;
+    width : 150px;
+}
+
+.deleteBtn:hover {
+    background-color: blue;
+    color : white;
+    border: 1px solid Black;
+}
+
+.ExpenseArea {
+    margin-top : 1rem;
+}
+
+
+
+
